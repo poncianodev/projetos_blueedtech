@@ -12,10 +12,14 @@ console.log('Responda as questões com 1 para SIM ou 0 para NÃO: ');
 console.log();
 
 const pergunta1 = +prompt('Você encontrou a Espada Flamejante de Brakio? ');
-const pergunta2 = +prompt('Você se lembrou de avisar o Imperador Kalos sobre a presença do General Razor na invasão? ');
+const pergunta2 = +prompt(
+    'Você se lembrou de avisar o Imperador Kalos sobre a presença do General Razor na invasão? ',
+);
 const pergunta3 = +prompt('Sua nave está abastecida para caso de fuga? ');
 const pergunta4 = +prompt('Os Exozorgs usaram armaduras forjadas em Brakio? ');
-const pergunta5 = +prompt('Você teria coragem de enfrentar o General Razor em uma luta? ');
+const pergunta5 = +prompt(
+    'Você teria coragem de enfrentar o General Razor em uma luta? ',
+);
 const total = pergunta1 + pergunta2 + pergunta3 + pergunta4 + pergunta5;
 
 console.log();
@@ -25,15 +29,25 @@ console.log(`O total das respostas é: ${total}`);
 console.log();
 
 if (total == 0) {
-    console.log('Os Exozorgs perderam a guerra. Você foi capturado e morto. Os que ficaram vivos, agora seriam escravizados e forçados a trabalhar nas minas. Agora Exos é comandada pelos Swampers.');
+    console.log(
+        'Os Exozorgs perderam a guerra. Você foi capturado e morto. Os que ficaram vivos, agora seriam escravizados e forçados a trabalhar nas minas. Agora Exos é comandada pelos Swampers.',
+    );
 } else if (total == 1 || total == 2) {
-    console.log('Os Exozorgs estavam perdendo a guerra, por isso assinaram um acordo para que os Swampers levassem uma enorme quantia de minério Brakio para seu planeta, e todos os meses enviarião mais. Você usa sua nave para fugir do planeta antes que as coisas piorem.');
+    console.log(
+        'Os Exozorgs estavam perdendo a guerra, por isso assinaram um acordo para que os Swampers levassem uma enorme quantia de minério Brakio para seu planeta, e todos os meses enviarião mais. Você usa sua nave para fugir do planeta antes que as coisas piorem.',
+    );
 } else if (total == 3) {
-    console.log('Devido às grandes baixas que tiveram, os Swampers sairam do seu planeta e prometeram voltar para terminar o que começaram, temporáriamente a guerra se encerra.');
+    console.log(
+        'Devido às grandes baixas que tiveram, os Swampers sairam do seu planeta e prometeram voltar para terminar o que começaram, temporáriamente a guerra se encerra.',
+    );
 } else if (total == 4) {
-    console.log('Você conseguiu um acordo com o General Razor e vão vender Brakio para eles. Os Zorgs não tem certeza se eles cumprirão o acordo, mas a guerra acabou.');
+    console.log(
+        'Você conseguiu um acordo com o General Razor e vão vender Brakio para eles. Os Zorgs não tem certeza se eles cumprirão o acordo, mas a guerra acabou.',
+    );
 } else if (total == 5) {
-    console.log('Você avistou o acampamento dos Swampers, entrou despercebido na cabana do General Razor e o matou enquanto dormia. Sem seu general, os inimigos batem em retirada e nunca mais vão voltar. Você venceu a guerra, seu nome será lembrado por toda a eternidade!!');
+    console.log(
+        'Você avistou o acampamento dos Swampers, entrou despercebido na cabana do General Razor e o matou enquanto dormia. Sem seu general, os inimigos batem em retirada e nunca mais vão voltar. Você venceu a guerra, seu nome será lembrado por toda a eternidade!!',
+    );
 }
 
 console.log();
