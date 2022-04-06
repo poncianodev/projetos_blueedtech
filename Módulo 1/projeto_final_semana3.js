@@ -110,7 +110,8 @@ do {
         console.log(
             "\n_______________________________________________________________________________________________________\n",
         );
-
+        
+        console.log();
         tempo.exibeTempo(); // 07:00 HRS
         console.log("Após a contagem, é hora da limpeza da cela.");
 
