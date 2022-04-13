@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: green;
+    height: 30vh;
+    background-image: url(../img/weed2.jpg);
+}
+
+header h1 {
+    text-align: center;
+}
+
+main {
+    background-color:black;
+    height: 70vh;
+    background-image: url(../img/black-texture.jpg)
+}
+
+div#texto {
+    color:white;
+    text-align: center;
+    padding-top: 250px;
+}
