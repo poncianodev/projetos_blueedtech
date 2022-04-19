@@ -1,26 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css" class="href">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Harry Potter - Casas de Hogwarts</title>
+    <link rel="icon" type="imagem/png" href="./assets/img/icon-hp.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap" rel="stylesheet">
-    <title>Projeto 1 - Jogo do Humor</title>
-</head>
-<body>
-    <header><h1>Jogo do Humor</h1>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <header>
+      <div id="titulo">
+            <h1>Apresentando as Casas de Hogwarts</h1>
+      </div>
     </header>
-
     <main>
-        <div id = "texto">
-            <h2>Nome:</h2>
-            <h3>Situação:</h3>
-            <button>Clique para Alterar</button>
+     
+    <h2>Clique em "Alterar" para ver as casas.</h2>
+
+      <div class="formas">
+        <figure>
+          <img
+            class="base"
+            src="./assets/img/base-casas.png"
+            alt="forma base"
+          />
+          <figcaption id="evoluir">Vamos lá?</figcaption>
+        </figure>
+        <button id="transformar"type="button" onclick="alterarBotao()">Alterar</button>
+        
         </div>
+      </div>
     </main>
 
-</body>
+    <footer>
+        Developed by <a href="http://github.com/poncianodev">Lucas Ponciano</a>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>
